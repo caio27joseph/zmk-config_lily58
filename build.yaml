@@ -29,3 +29,7 @@ include:
     shield: lily58_left nice_oled
   - board: nice_nano_v2
     shield: lily58_right nice_oled
+  # Clears the saved Bluetooth pairings and settings on a half. Flash it, then
+  # flash the normal firmware again.
+  - board: nice_nano_v2
+    shield: settings_reset
