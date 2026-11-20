@@ -16,7 +16,7 @@ Para prosseguir com a personalização e instalação do seu teclado sugerimos q
 
 As duas metades usam a tela OLED do Lily58 (128x32) com as animações do [zmk-nice-oled](https://github.com/mctechnology17/zmk-nice-oled):
 
-- **Esquerda (central):** WPM com a animação da cachorrinha Luna, camada, bateria, perfil Bluetooth, modificadores e Caps Lock.
+- **Esquerda (central):** WPM com a animação do Bongo Cat, camada, bateria, perfil Bluetooth, modificadores e Caps Lock.
 - **Direita:** animação do gato, bateria e conexão.
 
 Para trocar a animação da direita, edite `config/lily58.conf`: coloque `n` na linha do `CAT` e `y` em uma destas: `GEM`, `HEAD`, `POKEMON` ou `SPACEMAN` (`CONFIG_NICE_OLED_WIDGET_ANIMATION_PERIPHERAL_...`).
